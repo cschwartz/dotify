@@ -1,0 +1,14 @@
+filetype plugin on
+set shellslash
+let g:tex_flavor="latex"
+if has("unix") && match(system("uname"),'Darwin') != -1
+    let g:Tex_ViewRule_pdf = 'open -a Preview.app' 
+endif      
+
+let g:solarized_termcolors=256
+set t_Co=16
+set background=dark
+colorscheme solarized
+let vimrplugin_applescript = 0
+let vimrplugin_screenplugin = 0
+let vimrplugin_term_cmd = "/Applications/iTerm.app/Contents/MacOS/iTerm -t R"
