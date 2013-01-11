@@ -15,3 +15,7 @@
 #   dotify:
 #   - '.rbenv'
 #   - '.rvm'
+
+ignore:
+  dotfiles:
+    .oh-my-zsh
