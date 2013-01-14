@@ -1,0 +1,6 @@
+[submodule "vim-latex"]
+	path = vim-latex
+	url = git://vim-latex.git.sourceforge.net/gitroot/vim-latex/vim-latex
+[submodule "Vim-R-plugin"]
+	path = Vim-R-plugin
+	url = git://github.com/vim-scripts/Vim-R-plugin.git
