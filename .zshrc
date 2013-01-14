@@ -33,10 +33,10 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
-
 # Customize to your needs...
-export PATH=$HOME/.rbenv/shims:/usr/local/bin:/bin:/usr/sbin:/sbin:/usr/bin:/usr/X11/bin:/usr/local/texlive/2012/bin/x86_64-darwin/
+export PATH=$HOME/.rbenv/bin:$HOME/.rbenv/shims:/usr/local/bin:/bin:/usr/sbin:/sbin:/usr/bin:/usr/X11/bin:/usr/local/texlive/2012/bin/x86_64-darwin/
+
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 alias gs='git status'
 alias gaa='git add .'
